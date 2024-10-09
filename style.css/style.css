@@ -1,0 +1,723 @@
+/* Google font 1 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* google font 2 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* ======================================================================================== */
+
+/* Common CSS Style Here */
+
+* {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+
+body {
+
+    max-width: 100vw;
+
+}
+
+header {
+
+    max-width: 85vw;
+    margin: auto;
+
+}
+
+main {
+
+    max-width: 85vw;
+    margin: auto;
+
+}
+
+button:hover{
+
+    cursor: pointer;
+
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+/* Custom CSS Style Start from Here */
+
+.header-section {
+
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-image: url('../images/Banner\ Image.png');
+    background-blend-mode: overlay;
+    background-color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.header-container {
+
+    width: 632px;
+
+}
+
+
+.header-greeting {
+
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.header-heading {
+
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+.main-categories {
+
+    width: 1320px;
+    margin: 120px auto;
+    text-align: center;
+
+}
+
+
+.cate-offer {
+
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: 'Inter';
+    margin-bottom: 48px;
+}
+
+.cate-des {
+
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.cate-title {
+
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+
+
+/* ------------ party css style ------------- */
+
+
+.party-section {
+
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-image: url('../images/Vectorrr.png');
+    background-blend-mode: overlay;
+    background-color: #3a3a3a;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.party-container {
+
+
+    width: 697px;
+    margin-right: 50px;
+
+
+}
+
+
+.party-container h1 {
+
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+
+}
+
+.party-container p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.party-container h4 {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px;
+
+}
+
+.party-container h4:hover{
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------- */
+
+.time-section {
+
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 20px;
+    background-image: linear-gradient(#FF0000, #ffebeb);
+    background-blend-mode: overlay;
+    background-color: #ffffffd2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.time-container {
+    text-align: center;
+}
+
+
+.time-container p {
+
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+
+
+.time-container p span {
+
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+}
+
+
+.time-container button {
+
+    color: #FFF;
+    background-color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 48px;
+
+}
+
+
+.time-container button:hover{
+
+    background-color: #ffffff;
+    color: #F00;
+
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+
+
+
+
+.best-section {
+
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.best-start {
+
+    width: 400px;
+
+}
+
+
+.best-start h3 {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+
+.best-start h1 {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+
+}
+
+.best-start p {
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+
+.best-img {
+
+    padding: 35px;
+    border: 15px solid red;
+    border-radius: 50%;
+
+}
+
+.best-end {
+
+    width: 280px;
+
+}
+
+.best-end h2 {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 140px;
+    margin-bottom: 16px;
+
+}
+
+.best-end p {
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 43px;
+
+}
+
+.best-end img {
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+/* --------------------------------------------------------*/
+
+
+
+.holiday-section {
+
+
+    width: 1320px;
+    margin: 120px auto;
+
+
+
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+
+.discount-section {
+
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+
+}
+
+
+.holiday-info {
+    width: 1080px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.holiday-info h3 {
+
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+
+.holiday-info h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+
+
+
+.holiday-info h1 span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+.holiday-info p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;/
+}
+
+
+.discount-section {
+    width: 1320px;
+    height: 670px;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    margin-top: auto;
+    background-position: bottom;
+
+    position: relative;
+
+}
+
+
+.dis-img-1 {
+
+    width: 720px;
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+
+}
+
+.dis-img-2 {
+
+    position: absolute;
+    right: 280px;
+    top: 70px;
+    z-index: 1;
+
+}
+
+.dis-img-3 {
+
+    position: absolute;
+    right: 0;
+    top: 9px;
+
+}
+
+
+/*  */
+
+.portfolio-section {
+
+    width: 1320px;
+    margin: auto;
+
+}
+
+.portfolio-container {
+
+    width: 896px;
+
+
+
+}
+
+
+.portfolio-container h3 {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.portfolio-container h1 {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+
+}
+
+.portfolio-container p {
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+
+}
+
+
+/*  */
+
+.gallery-section {
+
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 120px;
+
+}
+
+.gallery-section img {
+
+    margin: 5px;
+
+}
+
+.gallery-section img:hover{
+
+    width: 434px;
+    margin: 0;
+    cursor: pointer;
+    
+
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+.newsletter-section {
+
+    width: 1320px;
+    height: 616px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 120px;
+    border-radius: 15px;
+
+}
+
+.newsletter-info {
+    width: 896px;
+    text-align: center;
+}
+
+
+.newsletter-info h1 {
+
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 22px;
+
+}
+
+.newsletter-info p {
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+
+}
+
+
+.newsletter-info form {
+    width: 648px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.newsletter-info form input {
+
+    width: 400px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    padding: 25px 30px;
+    border: none;
+
+}
+
+.newsletter-info form button {
+
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.newsletter-info form button:hover{
+
+    background-color: #fccdcd;
+    color: #F00;
+
+}
+
+
+/* -------------------------------------------------------- */
+
+footer {
+
+    height: 613px;
+    background: #070211;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.footer-section {
+
+    width: 1320px;
+    margin: auto;
+
+}
+
+
+
+.footer-section h2{
+
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+
+.footer-section hr{
+
+    height: 1px;
+    background-color: #575757;
+    border: none;
+
+}
+
+.footer-top{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 52px;
+
+}
+
+
+.footer-center{
+
+    display: flex;
+    justify-content: center;
+    margin: 48px 0;
+    gap: 25px;
+
+}
+
+
+.footer-bottom{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+
+}
+
+
+/* ------------------------------- CSS ENDED ---------------------------- */
